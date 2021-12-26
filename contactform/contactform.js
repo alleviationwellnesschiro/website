@@ -98,8 +98,10 @@ jQuery(document).ready(function($) {
       type: "POST",
       url: action,
       data: str,
+      headers: {'Accept': 'application/json'},
       success: function(msg) {
-        // alert(msg);
+        console.log('The message is ' + JSON.stringify(msg));
+        console.log('Message success is ' + msg.success);
         if (msg.success) {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
