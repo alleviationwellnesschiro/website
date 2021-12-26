@@ -150,7 +150,7 @@ banner
 	position: relative;
 }
 .bg-color{
-	/* background-color: RGBA(120, 120, 120, 0.78); */
+	background-color: RGBA(120, 120, 120, 0.78);
 	min-height: 650px;
 }
 .banner-info{
