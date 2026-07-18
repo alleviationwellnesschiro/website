@@ -1,57 +1,22 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "5.0.6",
-    "scripts": {
-        "start": "gulp watch"
-    },
-    "engines": {
-        "node": ">=20.0.0",
-        "npm": ">=10.0.0"
-    },
-    "description": "Agency is a one page HTML theme for Bootstrap.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.7.2",
-        "bootstrap": "4.3.1",
-        "gulp-cli": "^2.1.0",
-        "jquery": "^3.4.1",
-        "jquery.easing": "^1.4.1",
-        "node-sass": "^9.0.0",
-        "popper.js": "1.14.7"
-    },
-    "devDependencies": {
-        "browser-sync": "^3.0.2",
-        "del": "^3.0.0",
-        "gulp": "^4.0.2",
-        "gulp-autoprefixer": "9.0.0",
-        "gulp-clean-css": "4.0.0",
-        "gulp-header": "2.0.7",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "^5.0.0",
-        "gulp-uglify": "3.0.1",
-        "merge-stream": "^1.0.1"
-    }
+  "name": "alleviation-wellness-chiropractic",
+  "version": "2.0.0",
+  "description": "Static multi-page website for Alleviation Wellness Chiropractic (Douglasville, GA).",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve -l 3000",
+    "serve": "npx --yes serve -l 3000"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "keywords": [
+    "chiropractic",
+    "douglasville",
+    "static-site"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {}
 }
